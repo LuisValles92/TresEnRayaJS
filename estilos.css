@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+tr {
+    background: gold;
+}
+
+td {
+    font-size: 30px;
+    padding: 90px;
+}
+
+.player-1 {
+    background-color: green;
+}
+
+.player-2 {
+    background-color: red;
+}
+
+ul {
+    font-size: 28px;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h1,
+h2 {
+    font-size: 34px;
+}
+
+h2,
+.player-1,
+.player-2,
+.ja-a,
+.jb-a {
+    color: white;
+}
+
+.tablero-h2 {
+    background-color: black;
+}
+
+.ja-h2,
+.ja-a {
+    background-color: green;
+}
+
+.jb-h2,
+.jb-a {
+    background-color: red;
+}
+
+select,
+button {
+    font-size: 24px;
+}
+
+p {
+    font-size: 28px;
+    font-weight: bold;
+}

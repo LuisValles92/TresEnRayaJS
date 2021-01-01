@@ -28,7 +28,7 @@ function setProperty() {
     if (localStorage.getItem("Turno") != "A") {
         var indice_seleccionado = document.getElementById("select_A").selectedIndex;
         if (indice_seleccionado == 0)
-            alert("Seleccione un posición");
+            alert("Seleccione una posición");
         else {
             var option = document.getElementById("select_A").options.item(indice_seleccionado);
             localStorage.setItem("Turno", "A");
